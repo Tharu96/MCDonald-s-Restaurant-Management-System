@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MCDonald's Cashier.jnlp">
+  <information>
+    <title>MCDonald's Cashier</title>
+    <vendor>lakitha</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MCDonald_s_Cashier.jar" size="2897221" download="eager" />
+    <jar href="lib/MCDonald_s_Common.jar" size="37352" download="eager" />
+    <jar href="lib/ant-javafx.jar" size="1670475" download="eager" />
+    <jar href="lib/controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib/controlsfx-samples-8.40.14.jar" size="725707" download="eager" />
+    <jar href="lib/fontawesomefx-glyphsbrowser-all-1.0.jar" size="1662483" download="eager" />
+    <jar href="lib/fxsampler-1.0.10.jar" size="30882" download="eager" />
+    <jar href="lib/ijse-jasper-reports-util-by-sb.jar" size="9232819" download="eager" />
+    <jar href="lib/jasypt-1.9.0.jar" size="125643" download="eager" />
+    <jar href="lib/javafx-mx.jar" size="36037" download="eager" />
+    <jar href="lib/jfoenix.jar" size="2383838" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MCDonald's Cashier" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="lk.mc.cashier.startup.Start"  name="MCDonald's Cashier" />
+  <update check="always"/>
+</jnlp>

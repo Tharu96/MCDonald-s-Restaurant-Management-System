@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="1100.0" styleClass="root" stylesheets="@../style/Theme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="lk.mc.cashier.controller.ReportController">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="288.0" layoutY="70.0" prefHeight="438.0" prefWidth="524.0" title="Meal Level" />
+   </children>
+</AnchorPane>
