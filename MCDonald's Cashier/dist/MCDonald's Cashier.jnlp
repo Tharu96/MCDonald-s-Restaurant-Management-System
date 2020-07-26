@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="MCDonald_s_Cashier.jar" size="2897306" download="eager" />
+    <jar href="MCDonald_s_Cashier.jar" size="2897307" download="eager" />
     <jar href="lib/MCDonald_s_Common.jar" size="37352" download="eager" />
     <jar href="lib/ant-javafx.jar" size="1670475" download="eager" />
     <jar href="lib/controlsfx-8.40.14.jar" size="1215643" download="eager" />

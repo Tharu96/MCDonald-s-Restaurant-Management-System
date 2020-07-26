@@ -32,7 +32,7 @@ import javafx.stage.StageStyle;
 /**
  * FXML Controller class
  *
- * @author Lenovo™
+ * @author lakitha
  */
 public class DashBoardController implements Initializable {
 
@@ -74,14 +74,13 @@ public class DashBoardController implements Initializable {
         Platform.runLater(() -> {
             loadSlideBar();
         });
-        
-        
+
         buttonStyle();
         specialBtnStyle(btnCustomer);
 
         loadPane("/lk/mc/administrator/view/Report.fxml");
         resetHamburger();
-        
+
     }
 
     public void buttonStyle() {
@@ -136,6 +135,8 @@ public class DashBoardController implements Initializable {
     private void btnTeleOperators(MouseEvent event) {
         buttonStyle();
         specialBtnStyle(btnTeleOperators);
+        loadPane("/lk/mc/administrator/view/TelephoneOperator.fxml");
+        resetHamburger();
     }
 
     void loadPane(String path) {
@@ -150,9 +151,6 @@ public class DashBoardController implements Initializable {
                 Logger.getLogger(DashBoardController.class.getName()).log(Level.SEVERE, null, ex);
             }
         });
-            
-
-        
 
     }
 
@@ -160,7 +158,7 @@ public class DashBoardController implements Initializable {
         BoxBlur bb = new BoxBlur(3, 3, 3);
         transition = new HamburgerSlideCloseTransition(hamburger);
         transition.setRate(-1);
-        
+
         drawer.setSidePane(vBox);
 
         hamburger.addEventHandler(MouseEvent.MOUSE_CLICKED, (e) -> {

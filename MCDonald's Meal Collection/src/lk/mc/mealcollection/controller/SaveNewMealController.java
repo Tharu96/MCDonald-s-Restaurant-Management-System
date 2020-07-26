@@ -157,7 +157,7 @@ public class SaveNewMealController implements Initializable {
     
     private void chooseImage() {
         FileChooser fc = new FileChooser();
-        fc.setInitialDirectory(new File("/home/lakitha/MEGAsync"));
+        fc.setInitialDirectory(new File("G:\\ACADEMIC\\IJSE\\Projects\\New folder\\MC\\MC images"));
         fc.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("Images", "*.jpeg", "*.png", "*.jpg"));
         File selectedFile = fc.showOpenDialog(null);
 

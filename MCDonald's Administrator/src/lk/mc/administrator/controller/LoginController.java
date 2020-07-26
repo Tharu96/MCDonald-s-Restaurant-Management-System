@@ -39,7 +39,7 @@ import org.jasypt.util.password.StrongPasswordEncryptor;
 /**
  * FXML Controller class
  *
- * @author Lenovo™
+ * @author lakitha
  */
 public class LoginController implements Initializable {
 
